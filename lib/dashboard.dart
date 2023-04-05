@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
 
 class Dashboard extends StatelessWidget {
+  const Dashboard({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Personalized Financial Management Dashboard'),
+        title: const Text('My Money'),
       ),
       body: Column(
-        children: [
+        children: const [
           NetWorth(),
           SizedBox(height: 16),
           ExpenseSummary(),
@@ -27,6 +29,8 @@ class Dashboard extends StatelessWidget {
 }
 
 class NetWorth extends StatelessWidget {
+  const NetWorth({super.key});
+
   @override
   Widget build(BuildContext context) {
     // TODO: Implement NetWorth widget UI.
@@ -35,6 +39,8 @@ class NetWorth extends StatelessWidget {
 }
 
 class ExpenseSummary extends StatelessWidget {
+  const ExpenseSummary({super.key});
+
   @override
   Widget build(BuildContext context) {
     // TODO: Implement ExpenseSummary widget UI.
@@ -43,6 +49,8 @@ class ExpenseSummary extends StatelessWidget {
 }
 
 class IncomeSummary extends StatelessWidget {
+  const IncomeSummary({super.key});
+
   @override
   Widget build(BuildContext context) {
     // TODO: Implement IncomeSummary widget UI.
@@ -51,6 +59,8 @@ class IncomeSummary extends StatelessWidget {
 }
 
 class InvestmentPerformance extends StatelessWidget {
+  const InvestmentPerformance({super.key});
+
   @override
   Widget build(BuildContext context) {
     // TODO: Implement InvestmentPerformance widget UI.
@@ -59,6 +69,8 @@ class InvestmentPerformance extends StatelessWidget {
 }
 
 class FinancialGoals extends StatelessWidget {
+  const FinancialGoals({super.key});
+
   @override
   Widget build(BuildContext context) {
     // TODO: Implement FinancialGoals widget UI.
@@ -67,6 +79,8 @@ class FinancialGoals extends StatelessWidget {
 }
 
 class Notifications extends StatelessWidget {
+  const Notifications({super.key});
+
   @override
   Widget build(BuildContext context) {
     // TODO: Implement Notifications widget UI.
