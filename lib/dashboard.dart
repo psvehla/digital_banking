@@ -1,3 +1,4 @@
+import 'package:digital_banking/networth.dart';
 import 'package:flutter/material.dart';
 
 class Dashboard extends StatelessWidget {
@@ -25,16 +26,6 @@ class Dashboard extends StatelessWidget {
         ],
       ),
     );
-  }
-}
-
-class NetWorth extends StatelessWidget {
-  const NetWorth({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    // TODO: Implement NetWorth widget UI.
-    return Container();
   }
 }
 
