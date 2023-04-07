@@ -3,6 +3,7 @@ import 'package:digital_banking/financialgoals.dart';
 import 'package:digital_banking/incomesummary.dart';
 import 'package:digital_banking/investmentperformance.dart';
 import 'package:digital_banking/networth.dart';
+import 'package:digital_banking/notifications.dart';
 import 'package:flutter/material.dart';
 
 class Dashboard extends StatelessWidget {
@@ -31,15 +32,5 @@ class Dashboard extends StatelessWidget {
             ],
           ),
         ));
-  }
-}
-
-class Notifications extends StatelessWidget {
-  const Notifications({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    // TODO: Implement Notifications widget UI.
-    return Container();
   }
 }
