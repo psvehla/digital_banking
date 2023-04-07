@@ -16,7 +16,6 @@ class Dashboard extends StatelessWidget {
         ),
         body: SingleChildScrollView(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
             children: const [
               NetWorth(),
               SizedBox(height: 16),
