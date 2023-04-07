@@ -1,3 +1,4 @@
+import 'package:digital_banking/expensesummary.dart';
 import 'package:digital_banking/networth.dart';
 import 'package:flutter/material.dart';
 
@@ -26,16 +27,6 @@ class Dashboard extends StatelessWidget {
         ],
       ),
     );
-  }
-}
-
-class ExpenseSummary extends StatelessWidget {
-  const ExpenseSummary({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    // TODO: Implement ExpenseSummary widget UI.
-    return Container();
   }
 }
 
