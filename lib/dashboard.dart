@@ -1,4 +1,5 @@
 import 'package:digital_banking/expensesummary.dart';
+import 'package:digital_banking/financialgoals.dart';
 import 'package:digital_banking/incomesummary.dart';
 import 'package:digital_banking/investmentperformance.dart';
 import 'package:digital_banking/networth.dart';
@@ -29,16 +30,6 @@ class Dashboard extends StatelessWidget {
         ],
       ),
     );
-  }
-}
-
-class FinancialGoals extends StatelessWidget {
-  const FinancialGoals({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    // TODO: Implement FinancialGoals widget UI.
-    return Container();
   }
 }
 
