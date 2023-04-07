@@ -13,7 +13,7 @@ class Dashboard extends StatelessWidget {
       appBar: AppBar(
         title: const Text('My Money'),
       ),
-      body: Column(
+      body: ListView(
         children: const [
           NetWorth(),
           SizedBox(height: 16),
