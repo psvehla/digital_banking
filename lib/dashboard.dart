@@ -11,25 +11,27 @@ class Dashboard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('My Money'),
-      ),
-      body: ListView(
-        children: const [
-          NetWorth(),
-          SizedBox(height: 16),
-          ExpenseSummary(),
-          SizedBox(height: 16),
-          IncomeSummary(),
-          SizedBox(height: 16),
-          InvestmentPerformance(),
-          SizedBox(height: 16),
-          FinancialGoals(),
-          SizedBox(height: 16),
-          Notifications(),
-        ],
-      ),
-    );
+        appBar: AppBar(
+          title: const Text('My Money'),
+        ),
+        body: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: const [
+              NetWorth(),
+              SizedBox(height: 16),
+              ExpenseSummary(),
+              SizedBox(height: 16),
+              IncomeSummary(),
+              SizedBox(height: 16),
+              InvestmentPerformance(),
+              SizedBox(height: 16),
+              FinancialGoals(),
+              SizedBox(height: 16),
+              Notifications(),
+            ],
+          ),
+        ));
   }
 }
 
