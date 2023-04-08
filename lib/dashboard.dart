@@ -20,6 +20,8 @@ class Dashboard extends StatelessWidget {
             children: const [
               NetWorth(),
               SizedBox(height: 16),
+              Notifications(),
+              SizedBox(height: 16),
               ExpenseSummary(),
               SizedBox(height: 16),
               IncomeSummary(),
@@ -27,8 +29,6 @@ class Dashboard extends StatelessWidget {
               InvestmentPerformance(),
               SizedBox(height: 16),
               FinancialGoals(),
-              SizedBox(height: 16),
-              Notifications(),
             ],
           ),
         ));
