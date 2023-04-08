@@ -6,10 +6,10 @@ class Notifications extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(16),
+      padding: const EdgeInsets.all(16),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
+        children: const [
           Text(
             'Notifications',
             style: TextStyle(
@@ -20,7 +20,7 @@ class Notifications extends StatelessWidget {
           SizedBox(height: 16),
           ListTile(
             leading: Icon(Icons.monetization_on),
-            title: Text('Your paycheck has been deposited.'),
+            title: Text('Your has been deposited.'),
             subtitle: Text('2 days ago'),
             trailing: Icon(Icons.arrow_forward_ios),
           ),
