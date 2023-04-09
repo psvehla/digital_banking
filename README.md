@@ -1,19 +1,6 @@
 # digital_banking
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+I was in a meeting where we were tasked with reimagining digital banking when I remarked flippantly that we should ask ChatGPT to do it. The facetious remark was taken for what it was, but a voice in the back of my head said, 'Hey...'
 
 ## The Experiment
 
@@ -704,3 +691,36 @@ class Notifications extends StatelessWidget {
 ```
 
 This design includes three ListTile widgets, each displaying a different notification. The leading property of the ListTile widget displays an icon to represent the type of notification, while the title and subtitle properties display the details of the notification. The trailing property displays a small arrow icon to indicate that the notification can be clicked for more details. The SizedBox widgets are used to add spacing between the ListTile widgets.
+
+## Next
+
+I chose Flutter because we were also considering a switch to Flutter. However, I don't know Flutter or Dart from a bar of soap, so there was some work to be done.
+
+First I had to learn how to create a Flutter app, and then how to splice the widgets into the `flutter create app` I was left with.
+
+Next, I found that if I managed to get ChatGPT to actually write me some code, it would error out if it tried to write too much.
+
+![alt broken code](removed.png "Broken Code")
+
+I got around this by eliciting an overall structure, before eliciting more detail of the relevant widgets. This made the process more laborious, but it was better than giving up.
+
+After adding a few widgets I found that ChatGPT had assumed an infinitely long phone, since it had not factored scrolling into the app. That saw me needing to find out how to add scrolling.
+
+The completed app saw notifications at the bottom of a scroll down the screen, which really didn't make sense. I moved it up the order so that they appear on the screen out of the gate, before any scrolling takes place.
+
+![alt app start](app1.png "App Start")
+![alt app scrolled](app2.png "App Scrolled")
+
+## Conclusion
+
+So, does this approach have any value?
+
+### As an Innovation Assistant
+
+On reimagining digital banking: yawn. Which is hardly surprising, given that LLMs are essentially a regurgitation of what other people have already published on the internet.
+
+### As a Prototyping Tool
+
+I'm a big fan of circumventing hours of meetings around slide decks with code. I prefer to go ahead and build something, anything, I can put on a table that we can stand around and poke a stick at. So this approach speaks to me.
+
+However, it's probably just a difficult to use Figma. If you work in an enterprise with an army of Figma wielding designers, ChatGPT brings nothing. However, if you're small enough to be going straigt to code, it may be a different story. If you're a startup, maybe you'd slap Firebase on the back of it and call it MVP. Oh no, that voice in the back of my head just said, 'Hey...'
