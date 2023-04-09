@@ -655,7 +655,7 @@ class FinancialGoals extends StatelessWidget {
 
 This design includes two rows, each displaying a different financial goal along with its current progress. The rows are spaced apart using SizedBox widgets, and the progress bars are implemented using the LinearProgressIndicator widget. The value property of the LinearProgressIndicator widget can be customized to reflect the current progress towards each financial goal.
 
-***Can you please show me a sample design for the Notifications?**
+**Can you please show me a sample design for the Notifications?**
 
 Certainly! Here's a sample design for the Notifications section of a personalized financial management dashboard in Flutter:
 
