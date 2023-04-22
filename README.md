@@ -711,13 +711,15 @@ This design includes three ListTile widgets, each displaying a different notific
 
 I chose Flutter because we were also considering a switch to Flutter. However, I don't know Flutter or Dart from a bar of soap, so there was some work to be done.
 
-First I had to learn how to create a Flutter app, and then how to splice the widgets ChatGPT had given to me into the `flutter create app` I was left with.
+First I had to learn how to create a Flutter app, and then how to shoehorn the widgets ChatGPT had given to me into the `flutter create app` I was left with.
 
 As can be seen above, I found that when I managed to get ChatGPT to actually write me some code, it would error out if it tried to write too much.
 
 ![alt broken code](removed.png "Broken Code")
 
 I got around this by eliciting an overall structure, and then asking for more detail on the relevant widgets. This made the process more laborious, but it was better than giving up. It also meant more effort to splice the code I was given into the app.
+
+My IDE's linter _really_ didn't like ChatGPT's code quality, so there was some tidy up to do there too.
 
 After adding a few widgets I found that ChatGPT had assumed an infinitely long phone, since it had not factored scrolling into the app. That saw me needing to find out how to add scrolling to a Flutter app.
 
@@ -736,6 +738,6 @@ On reimagining digital banking: yawn. Which is hardly surprising, given that LLM
 
 ### As a Prototyping Tool?
 
-I'm a big fan of circumventing hours of meetings around slide decks with code. I prefer to go ahead and build something, anything, I can put on a table that we can stand around and poke a stick at. So this approach speaks to me.
+I'm a big fan of circumventing hours of meetings around slide decks with code. I prefer to go ahead and build something, anything, I can put on a table that we can stand around and poke a stick at. So this approach speaks to me. Despite not being familiar with Flutter, I had an app running on my phone in a couple of hours.
 
 However, one could argue this approach is just a difficult to use Figma. If you work in an enterprise with an army of Figma wielding designers, prototyping with ChatGPT brings nothing. However, if you're small enough to be going straigt to code, it may be a different story. If you're a startup, maybe you'd slap Firebase on the back of it and call it MVP. Oh no, that voice in the back of my head just said, 'Hey...'
