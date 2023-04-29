@@ -723,7 +723,7 @@ My IDE's linter _really_ didn't like ChatGPT's code quality, so there was some t
 
 After adding a few widgets I found that ChatGPT had assumed an infinitely long phone, since it had not factored scrolling into the app. That saw me needing to find out how to add scrolling to a Flutter app.
 
-The completed app had notifications at the bottom of a scroll down the screen, which really didn't make sense. I moved it up the order so that they appear on the screen on app startup, before any scrolling takes place.
+The completed app had notifications at the bottom of a scroll down the screen, which really didn't make sense to me. I moved it up the order so that they appear on the screen on app startup, before any scrolling takes place.
 
 ![alt app start](app1.png "App Start")
 ![alt app scrolled](app2.png "App Scrolled")
