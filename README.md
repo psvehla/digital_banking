@@ -711,7 +711,7 @@ This design includes three ListTile widgets, each displaying a different notific
 
 I chose Flutter because we were also considering a switch to Flutter. However, I don't know Flutter or Dart from a bar of soap, so there was some work to be done.
 
-First I had to learn how to create a Flutter app, and then how to shoehorn the widgets ChatGPT had given to me into the `flutter create app` I was left with.
+First I had to learn how to create a Flutter app, and then how to shoehorn the widgets ChatGPT had given to me into the `flutter create app` (FCrApp?) I was left with.
 
 As can be seen above, I found that when I managed to get ChatGPT to actually write me some code, it would error out if it tried to write too much.
 
